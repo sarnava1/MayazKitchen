@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PastHistory</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+   <link rel="stylesheet" type="text/css" href="cartcss.css">
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+	<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+	<a href="#" class="navbar-brand"> <span class="glyphicon glyphicon-glass"></span> Mayaz Kitchen</a>
+	</div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav navbar-right">
+			<li class="active dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="swag.html">About Us</a></li>
+          <li><a href="cntctus.html">Contact Us</a></li>
+          <li><a href="custmspk.html">Received Feedbacks</a></li>
+          
+        </ul>
+      </li>
+     <!-- Home</a></li>-->
+			<li><a href="try1.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a data-toggle="modal" href="#myModal" ><span class="glyphicon glyphicon-log-in"></span> Log In</a></li></ul>
+
+            </div>
+  </div>
+</nav>
+
+
+
+                
+
+      <div class="modal fade" id="myModal" role="dialog" style="font-family: lato;">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal" style="padding-top: 15px;">&times;</button>
+          <h4 style="font-family: 'SansationLight';"><span class="glyphicon glyphicon-lock"></span> Login</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="email" class="form-control" id="usrname" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="password" class="form-control" id="psw" placeholder="Enter password" required>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-success btn-block"><!--<span class="glyphicon glyphicon-off"></span>--> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+         <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+         
+          <p>Forgot <a href="forgetpswrd.html">Password?</a></p>
+           <p>Not a member? <a href="try1.html">Sign Up</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+
+
+<div class="container" style="margin-top: 100px; min-height: 430px;">
+
+<table class=" table table-responsive  table-hover ">
+<tbody>
+  <tr>
+  <th style="background-color:#000000; color: #ffffff">Item No</th>
+  <th  style="background-color:#000000; color: #ffffff">Date</th>
+  <th  style="background-color:#000000; color: #ffffff">Item Name</th>
+  <th  style="background-color:#000000; color: #ffffff">Cost</th>
+  <th  style="background-color:#000000; color: #ffffff">Order Status</th>
+  </tr>
+  <tr>
+  <th style="height: 35px;"></th>
+  <th style="height:35px;"></th>
+  <th style="height: 35px;"></th>
+  <th style="height: 35px;"></th>
+  <th style="height: 35px;"></th>
+  </tr>
+  <tr>
+  <th>XXXX</th>
+  <th>1</th>
+  <th>YYYY</th>
+  <th>ZZZZ</th>
+  <th><button class=" btn btn-success">Purchased</button></th>
+  </tr>
+  <tr>
+  <th>XXXX</th>
+  <th>2</th>
+  <th>ZZZZ</th>
+  <th>YYYY</th>
+  <th><button class=" btn btn-success">Purchased</button></th>
+  </tr>
+  <tr>
+  <th>XXXX</th>
+  <th>3</th>
+  <th>ZZZZ</th>
+  <th>YYYY</th>
+  <th><button class=" btn btn-success">Purchased</button></th>
+  </tr>
+  </tbody>
+  </table>
+
+
+<div class="container " style="align-content: center;">
+  <div class="jumbotron text-center">
+  <h2>Thank You for your TRUST in US!!!</h2>
+<h3>To buy more click <a href="#">Here.</a></h3>
+</div>
+</div>
+
+
+</div>
+  <footer>
+  <div class="container">
+    <p align="center" style="font-family: myFirstFont;">You can connect with us through:</p>
+<div align="center">
+<a href="#"><i class="fa fa-amazon" style="font-size:40px;color:red; text-align: : center; margin-right: 10px;" align="center"></i></a>
+<a href="https://www.facebook.com/"><i class="fa fa-facebook-official" style="font-size:40px;color:blue; margin-right: 10px;"></i></a>
+<a href="#"><i class="fa fa-tumblr-square" style="font-size:40px;color:green; margin-right: 10px;"></i></a>
+<a href="#"><i class="fa fa-twitter" style="font-size:40px;color:white; margin-right: 10px;"></i></a>
+<a href="#"><i class="fa fa-whatsapp" style="font-size:40px;color:yellow; margin-right: 10px;"></i></a>
+    </div>
+    <br> 
+    <p align="center">Copyright © Mayaz Kitchen | All Rights Reserved | A SARNAVA KONAR creation</p>
+
+  </div>
+</footer>
+
+</body>
+</html>
