@@ -11,3 +11,4 @@ This was a project I was building when I was learning web d nicely with dedicati
 8. There will be a hell lot of iisues in this project.
 9. First timers and noobies can try solving the issues over here. It will lead to their betterment.
 10. Interested developers can club the images together and the css files together and make modifications for that in the html files.
+11. https://sarnava1.github.io/MayazKitchen/ is the link of the page wheere this site is hosted. 
