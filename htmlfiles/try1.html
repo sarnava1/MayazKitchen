@@ -1,9 +1,9 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Settings</title>
+  <title>Registration Form</title>
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="styles/settingscss.css">
+  <link rel="stylesheet" href="styles/try1css.css">
 
   <style>
 
@@ -194,16 +194,16 @@ input {
         <span class="icon-bar"></span>
       </button>
 
-  <a href="#" class="navbar-brand"> <span class="glyphicon glyphicon-glass"></span> Mayaz Kitchen</a>
+  <a href="htmlfiles/index.html" class="navbar-brand"> <span class="glyphicon glyphicon-glass"></span> Mayaz Kitchen</a>
   </div>
   <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav navbar-right">
       <li class="active dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
+          <li><a href="htmlfiles/realabtus.html">About Us</a></li>
+          <li><a href="htmlfiles/cntctus.html">Contact Us</a></li>
+          <li><a href="htmlfiles/custmspk.html">Received Feedbacks</a></li>
         </ul>
       </li>
      <!-- Home</a></li>-->
@@ -254,17 +254,24 @@ input {
     </div>
   </div>
 
-                background-size: cover;
-<div style="background-color: #2d4259; height: 550px; background:url(../Images/coverpic6.jpg) no-repeat center;  background-size: cover; ">
-  <div class="rightshiftnew">
-  <h1 class="register-titlenew" >Welcome</h1>
-  <form class="registernew">
 
-     <input type="email" class="register-inputnew" placeholder="email" required>
-     <input type="text" class="register-inputnew" placeholder="contact no" required>
-     <input type="password" class="register-inputnew" placeholder="otp sent in phone">
-    <input type="password" class="register-inputnew" placeholder="otp sent in email(mandatory)" required>
-    <a href="newpswrd.html"><input type="submit" value="Enter Account" class="register-buttonnew"></a>
+<div style="background-color: #2d4259; height: 550px; background:url(images/coverpic6.jpg) no-repeat center;  background-size: cover; ">
+  <div class="rightshiftnew">
+  <h1 class="register-titlenew">Welcome</h1>
+  <form class="registernew">
+    <div class="register-switchnew">
+      <input type="radio" name="sex" value="F" id="sex_fnew" class="register-switch-inputnew" checked>
+      <label for="sex_fnew" class="register-switch-labelnew">Female</label>
+      <input type="radio" name="sex" value="M" id="sex_mnew" class="register-switch-inputnew">
+      <label for="sex_mnew" class="register-switch-labelnew">Male</label>
+    </div>
+     <input type="text" class="register-inputnew" placeholder="Username" required>
+     <input type="text" class="register-inputnew" placeholder="Address" required>
+     <input type="text" class="register-inputnew" placeholder="Contact No" required>
+   <input type="email" class="register-inputnew" placeholder="Email address" required>
+    <input type="password" class="register-inputnew" placeholder="Password" required>
+     <input type="password" class="register-inputnew" placeholder="Re-Type Password" required>
+    <input type="submit" value="Create Account" class="register-buttonnew">
   </form>
   </div>
 

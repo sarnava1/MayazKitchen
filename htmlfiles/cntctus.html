@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Mayaz Kitchen</title>
-  <meta charset="utf-8">
+	<title>contactus</title>
+
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-   <link rel="stylesheet" type="text/css" href="styles/bcss.css">
-
+   <link rel="stylesheet" type="text/css" href="styles/cntctuscss.css">
 
 </head>
-
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -27,27 +28,22 @@
         <span class="icon-bar"></span>
       </button>
 
-	<a href="#" class="navbar-brand"> <span class="glyphicon glyphicon-glass"></span> Mayaz Kitchen</a>
+	<a href="htmlfiles/index.html" class="navbar-brand"> <span class="glyphicon glyphicon-glass"></span> Mayaz Kitchen</a>
 	</div>
 	<div class="collapse navbar-collapse" id="myNavbar">
 		<ul class="nav navbar-nav navbar-right">
 			<li class="active dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="swag.html">About Us</a></li>
-          <li><a href="cntctus.html">Contact Us</a></li>
-          <li><a href="custmspk.html">Received Feedbacks</a></li>
-          <li><a href="custmspk.html">Shopping History</a></li>
-          <li><a href="custmspk.html">Success</a></li>
-          <li><a href="settings.html">Settings</a></li>
-
-
+					<li><a href="htmlfiles/realabtus.html">About Us</a></li>
+          <li><a href="htmlfiles/cntctus.html">Contact Us</a></li>
+          <li><a href="htmlfiles/custmspk.html">Received Feedbacks</a></li>
         </ul>
       </li>
      <!-- Home</a></li>-->
-			  <li><a data-toggle="modal" href="#myModal" ><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-          <li><a data-toggle="modal" href="#myModal" ><span class="glyphicon glyphicon-log-in"></span> Log Out</a></li>
-<li><a href="try1.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>  </ul>
+			<li><a href="try1.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a data-toggle="modal" href="#myModal" ><span class="glyphicon glyphicon-log-in"></span> Log In</a></li></ul>
+
             </div>
   </div>
 </nav>
@@ -84,8 +80,8 @@
         <div class="modal-footer">
          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
 
-          <p>Forgot <a href="forgetpswrd.html">Password?</a></p>
-           <p>Not a member? <a href="try1.html">Sign Up</a></p>
+          <p>Forgot <a href="#">Password?</a></p>
+           <p>Not a member? <a href="htmlfiles/try1.html">Sign Up</a></p>
         </div>
       </div>
 
@@ -94,86 +90,59 @@
 
 
 
+<div id="contact" class="container" style="margin-top: 50px;">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>We love our customers!</em></p>
 
-
-
-
- <div>
-      <div class="banner-image">
-      <div class="inner-banner-image">
-     <div class="banner_content">
-     <h1 >We sell DELICIOUS food</h1>
-     <p >Flat 10% OFF on PREMIUM items</p>
-      <a href="#""><button type="button" class="btn btn-danger btn-lg">Buy Now</button>
-     </a>
-     </div>
-     </div>
-      </div>
-     </div>
-
-
-     <div class="style1">
-     <div class="container">
-
-     	<div class="row text-center">
-      <div class="col-sm-3">
-        <div class="thumbnail">
-
-
-          <img src="Images/burger3e.jpg" alt="Paris" class="img1">
-          <p><strong>Burgers</strong></p>
-          <p>The best in Sodpur</p>
-         <a href="proburgers.html"> <button class="btn1 btn" >See Details</button></a>
+  <div class="row">
+    <div class="col-md-4">
+      <p>Customer? Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Sodpur, Kolkata</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +91 9804846489</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: konarsarnava@gmail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="thumbnail">
-
-
-          <img src="Images/pizza1e.jpg" alt="New York" class="img1"  >
-
-
-          <p><strong>Pizzas</strong></p>
-          <p>The best in Sodpur</p>
-          <a href="Images/propizza.html"> <button class="btn1 btn" >See Details</button></a>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn1 pull-right" type="submit">Send</button>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="thumbnail">
-
-
-          <img src="Images/kebab1e.jpg" alt="San Francisco" class="img1">
-
-          <p><strong>Kebabs</strong></p>
-          <p>The best in Sodpur</p>
-<a href="prokebabs.html"> <button class="btn1 btn" >See Details</button></a>
-        </div>
-      </div>
-
-      <div class="col-sm-3">
-        <div class="thumbnail">
-
-         <a href="#"> <img src="Images/bev3e.jpg" alt="San Francisco" class="img1"></a>
-          <p><strong>Beverages</strong></p>
-          <p>The best in Sodpur</p>
-        <a href="probev.html"> <button class="btn1 btn" >See Details</button></a>
-        </div>
-      </div>
-
     </div>
   </div>
-     </div>
-<div id="googleMap"></div>
-<script>
-function myMap() {
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL27EMN31ufG84YycwcJnVjd-KsBgOFvw&callback=myMap"></script>
+  <br>
+  <h3 class="text-center">From The Blog</h3>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Sarnava</a></li>
+    <li><a data-toggle="tab" href="#menu1">XXXX</a></li>
+	  
+    <li><a data-toggle="tab" href="#menu2">YYYY</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Sarnava Konar, Head Chef</h2>
+      <p>Man, we've been on the go for some time now. Looking forward to meet you at our new branch!!!</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>XXXX, Manager</h2>
+      <p>Always a pleasure people! Hope you enjoyed our food as much as I do. Could I BE.. any more pleased?</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2>YYYY, Public Relations Chief</h2>
+      <p>I mean, sometimes I enjoy the food, but other times I enjoy other things but most of the times I enjoy being with you all!!</p>
+    </div>
+  </div>
+</div>
 
 <footer>
   <div class="container">
@@ -190,7 +159,6 @@ marker.setMap(map);
 
   </div>
 </footer>
-
 
 
 
