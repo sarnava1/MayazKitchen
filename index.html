@@ -159,14 +159,16 @@
 <div id="googleMap"></div>
 <script>
 function myMap() {
-var myCenter = new google.maps.LatLng(22.702358, 88.384241);
-var mapProp = {center:myCenter, zoom:15, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 var marker = new google.maps.Marker({position:myCenter});
 marker.setMap(map);
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL27EMN31ufG84YycwcJnVjd-KsBgOFvw&callback=myMap"></script>
+
+<!-- get directions -->
 <div id="direction" style="text-align:center">
   <br>
   <h2>Want to try our food now !</h2>
@@ -178,6 +180,8 @@ marker.setMap(map);
 </form>
 <br>
 </div>
+
+
 
 <footer>
   <div class="container">
