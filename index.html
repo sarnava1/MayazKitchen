@@ -159,25 +159,14 @@
 <div id="googleMap"></div>
 <script>
 function myMap() {
-var myCenter = new google.maps.LatLng(22.702358, 88.384241);
-var mapProp = {center:myCenter, zoom:15, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 var marker = new google.maps.Marker({position:myCenter});
 marker.setMap(map);
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL27EMN31ufG84YycwcJnVjd-KsBgOFvw&callback=myMap"></script>
-<div id="direction" style="text-align:center">
-  <br>
-  <h2>Want to try our food now !</h2>
-  <h5 style="color:#606060"><strong> GET DIRECTIONS </strong></h5>
-  <form action="http://maps.google.com/maps" method="get" target="_blank">
-   <input type="text" name="saddr" placeholder="Enter your location" style="padding:5px;border-radius:4px;"/>
-   <input type="hidden" name="daddr" value="22.702358, 88.384241" />
-   <input type="submit" value="Get directions" style="padding:5px;border-radius:4px;background-color:teal;color:white;"/>
-</form>
-<br>
-</div>
 
 <footer>
   <div class="container">
