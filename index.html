@@ -159,7 +159,7 @@
 <div id="googleMap"></div>
 <script>
 function myMap() {
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var myCenter = new google.maps.LatLng(22.702358, 88.384241);
 var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 var marker = new google.maps.Marker({position:myCenter});
@@ -172,11 +172,10 @@ marker.setMap(map);
 <div id="direction" style="text-align:center">
   <br>
   <h2>Want to try our food now !</h2>
-  <h5 style="color:#606060"><strong> GET DIRECTIONS </strong></h5>
   <form action="http://maps.google.com/maps" method="get" target="_blank">
-   <input type="text" name="saddr" placeholder="Enter your location" style="padding:5px;border-radius:4px;"/>
+   <input type="hidden" name="saddr" value=My+Location style="padding:5px;border-radius:4px;"/>
    <input type="hidden" name="daddr" value="22.702358, 88.384241" />
-   <input type="submit" value="Get directions" style="padding:5px;border-radius:4px;background-color:teal;color:white;"/>
+   <input type="submit" value="Get directions" style="padding:10px 15px; border-radius:4px;background-color:#29deb5;color:white;"/>
 </form>
 <br>
 </div>
@@ -189,9 +188,9 @@ marker.setMap(map);
 <div align="center">
 <a href="#"><i class="fa fa-amazon" style="font-size:40px;color:red; text-align: : center; margin-right: 10px;" align="center"></i></a>
 <a href="#"><i class="fa fa-facebook-official" style="font-size:40px;color:blue; margin-right: 10px;"></i></a>
-<a href="#"><i class="fa fa-tumblr-square" style="font-size:40px;color:green; margin-right: 10px;"></i></a>
-<a href="#"><i class="fa fa-twitter" style="font-size:40px;color:white; margin-right: 10px;"></i></a>
-<a href="#"><i class="fa fa-whatsapp" style="font-size:40px;color:yellow; margin-right: 10px;"></i></a>
+<a href="#"><i class="fa fa-tumblr-square" style="font-size:40px;color:white; margin-right: 10px;"></i></a>
+<a href="#"><i class="fa fa-twitter" style="font-size:40px;color:skyblue; margin-right: 10px;"></i></a>
+<a href="#"><i class="fa fa-whatsapp" style="font-size:40px;color:green; margin-right: 10px;"></i></a>
     </div>
     <br>
     <p align="center">Copyright © Mayaz Kitchen | All Rights Reserved | A SARNAVA KONAR creation</p>
